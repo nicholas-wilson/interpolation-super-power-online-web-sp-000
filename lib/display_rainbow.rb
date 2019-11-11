@@ -8,3 +8,4 @@ def display_rainbow(colors)
     message += "#{colors[x][0].uppercase}: #{colors[x]}, "
   end
   message += "#{colors[x][0].uppercase}: #{colors[x]}"
+end
