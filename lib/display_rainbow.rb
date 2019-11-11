@@ -9,3 +9,5 @@ def display_rainbow(colors)
   end
   message += "#{colors[x][0].uppercase}: #{colors[x]}"
 end
+
+display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
