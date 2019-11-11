@@ -1,13 +1,5 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  message = ""
-  for x in colors
-    if x == (colors[colors.length - 1])
-      break
-    end
-    message += "#{colors[x][0].uppercase}: #{colors[x]}, "
-  end
-  message += "#{colors[x][0].uppercase}: #{colors[x]}"
+  puts "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}" +
+  ", B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
 end
-
-display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
